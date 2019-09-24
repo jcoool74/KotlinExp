@@ -8,7 +8,7 @@ fun main() {
     // It iterates over anything that is iterable
     val names = listOf("Anne", "Peter", "Jeff")
     for (name in names) {
-        println(name)
+        println("iterable: $name")
     }
 
     // You can also create a range with the .. operator
